@@ -24,7 +24,11 @@ class App extends React.Component {
         while(!fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => this.setState({robots: users}))) {
-            
+            setTimeout(function(){
+
+
+            }, 500); 
+
         };
     }
     

@@ -17,4 +17,8 @@ h1 {
     font-weight: 200;
     color: white;
 }
+
+input {
+    margin: 10px;
+}
   
